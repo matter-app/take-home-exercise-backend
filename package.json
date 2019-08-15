@@ -1,0 +1,17 @@
+{
+  "name": "matterapp-backend-take-home-exercise",
+  "version": "1.0.0",
+  "repository": "https://github.com/matter-app/backend-take-home-exercise",
+  "author": "Kerem Kazan",
+  "private": true,
+  "scripts": {
+    "start": "npx nodemon ./server.js"
+  },
+  "dependencies": {
+    "sequelize": "5.15.0",
+    "sqlite3": "4.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.1"
+  }
+}
