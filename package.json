@@ -5,7 +5,8 @@
   "author": "Kerem Kazan",
   "private": true,
   "scripts": {
-    "watch": "nodemon --exec babel-node ./server.js"
+    "watch": "npx nodemon --exec babel-node ./server.js",
+    "migrate": "npx sequelize-cli db:migrate"
   },
   "dependencies": {
     "apollo-server-express": "2.8.1",

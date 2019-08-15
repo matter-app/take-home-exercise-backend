@@ -1,5 +1,5 @@
 {
-  "production": {
+  "development": {
     "dialect": "sqlite",
     "storage": "./database.sqlite3"
   }
