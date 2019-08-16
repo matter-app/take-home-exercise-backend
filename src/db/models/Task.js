@@ -1,6 +1,6 @@
 import { Sequelize } from "sequelize";
 
-export class TodoItem extends Sequelize.Model {
+export class Task extends Sequelize.Model {
   static init(sequelize, DataTypes) {
     return super.init(
       {
@@ -16,12 +16,7 @@ export class TodoItem extends Sequelize.Model {
   }
 
   static associate(models) {
-    this.parent = this.belongsTo(models.TodoItem, {
-      foreignKey: "parentId"
-    });
-
-    this.children = this.hasMany(models.TodoItem, {
-      foreignKey: "parentId"
-    });
+    Task.hasMany(Task, { as: "children", foreignKey: "parentId" });
+    Task.belongsTo(Task, { as: "parent", foreignKey: "parentId" });
   }
 }

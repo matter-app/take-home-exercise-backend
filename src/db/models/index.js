@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 import { sequelize } from "../sequelize";
-import { TodoItem } from "./TodoItem";
+import { Task } from "./Task";
 
 export const models = {
-  TodoItem: TodoItem.init(sequelize, Sequelize)
+  Task: Task.init(sequelize, Sequelize)
 };

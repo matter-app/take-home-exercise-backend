@@ -1,3 +1,3 @@
 # Sources
 
-https://sequelize.org/master/manual/migrations.html
+https://sequelize.readthedocs.io/en/latest/docs/associations/
