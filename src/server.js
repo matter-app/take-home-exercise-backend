@@ -18,14 +18,33 @@ const typeDefs = gql`
   }
 
   type Mutation {
+    # create a task with the given params
     createTask(title: String!, isCompleted: Boolean): Task!
+
+    # update the title of the task with the given id
     updateTask(id: ID!, title: String!): Task!
+
+    # update task.isCompleted as given
     toggleTask(id: ID!, isCompleted: Boolean!): Task!
+
+    # delete this task
     removeTask(id: ID!): Boolean
-    addChildren(parentId: ID!, childrenIds: [ID!]!): Task!
-    setParent(parentId: ID!, childId: ID!): Task!
+
+    # every children in childrenIds gets their parent set as parentId
+    addChildrenToTask(parentId: ID!, childrenIds: [ID!]!): Task!
+
+    # the task with id: childId gets the task with id: parentId as its new parent
+    setParentOfTask(parentId: ID!, childId: ID!): Task!
+
+    # the task with the given id becomes a root level task
+    removeParentFromTask(id: ID!): Task!
   }
 `;
+
+/**
+ * TODO: Your task is implementing the resolvers. Go through the readme first.
+ * TODO: Your resolvers will need to implement the typedefs given above.
+ */
 
 const resolvers = {
   Query: {},
