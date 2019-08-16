@@ -1,6 +1,6 @@
 import { Sequelize } from "sequelize";
 
-export class Task extends Sequelize.Model {
+export class Ticket extends Sequelize.Model {
   static init(sequelize, DataTypes) {
     return super.init(
       {
@@ -16,7 +16,7 @@ export class Task extends Sequelize.Model {
   }
 
   static associate(models) {
-    Task.hasMany(Task, { as: "children", foreignKey: "parentId" });
-    Task.belongsTo(Task, { as: "parent", foreignKey: "parentId" });
+    Ticket.hasMany(Ticket, { as: "children", foreignKey: "parentId" });
+    Ticket.belongsTo(Ticket, { as: "parent", foreignKey: "parentId" });
   }
 }

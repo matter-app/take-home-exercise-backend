@@ -5,50 +5,50 @@ import { models } from "./db";
 const PORT = 4001;
 
 const typeDefs = gql`
-  type Task {
+  type Ticket {
     id: ID!
     title: String!
     isCompleted: Boolean!
-    children: [Task]!
+    children: [Ticket]!
   }
 
   type Query {
-    tasks: [Task]!
-    task(id: ID!): Task!
+    tickets: [Ticket]!
+    ticket(id: ID!): Ticket!
   }
 
   type Mutation {
-    # create a task with the given params
-    createTask(title: String!, isCompleted: Boolean): Task!
+    # create a ticket with the given params
+    createTicket(title: String!, isCompleted: Boolean): Ticket!
 
-    # update the title of the task with the given id
-    updateTask(id: ID!, title: String!): Task!
+    # update the title of the ticket with the given id
+    updateTicket(id: ID!, title: String!): Ticket!
 
-    # update task.isCompleted as given
-    toggleTask(id: ID!, isCompleted: Boolean!): Task!
+    # update ticket.isCompleted as given
+    toggleTicket(id: ID!, isCompleted: Boolean!): Ticket!
 
-    # delete this task
-    removeTask(id: ID!): Boolean
+    # delete this ticket
+    removeTicket(id: ID!): Boolean
 
     # every children in childrenIds gets their parent set as parentId
-    addChildrenToTask(parentId: ID!, childrenIds: [ID!]!): Task!
+    addChildrenToTicket(parentId: ID!, childrenIds: [ID!]!): Ticket!
 
-    # the task with id: childId gets the task with id: parentId as its new parent
-    setParentOfTask(parentId: ID!, childId: ID!): Task!
+    # the ticket with id: childId gets the ticket with id: parentId as its new parent
+    setParentOfTicket(parentId: ID!, childId: ID!): Ticket!
 
-    # the task with the given id becomes a root level task
-    removeParentFromTask(id: ID!): Task!
+    # the ticket with the given id becomes a root level ticket
+    removeParentFromTicket(id: ID!): Ticket!
   }
 `;
 
 /**
  * TODO: Your task is implementing the resolvers. Go through the readme first.
- * TODO: Your resolvers will need to implement the typedefs given above.
+ * TODO: Your resolvers below will need to implement the typedefs given above.
  */
 
 const resolvers = {
   Query: {},
-  Task: {},
+  Ticket: {},
   Mutation: {}
 };
 
