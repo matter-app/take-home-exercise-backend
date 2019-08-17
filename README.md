@@ -12,11 +12,6 @@ There are many different ways to complete this exercise. We wanted to keep it op
 - In the repo root directory, run `npm install` to gather all dependencies.
 - Next, run `npm run migrate`. This will create a local SQLite database. This database will live in a local file named `database.sqlite3`.
 - Then run `npm run watch`. This should start the server in development mode.
-
-## Before Starting
-
-- ❗️ **Make sure you commit all changes to the master branch!**
-- Do not worry about performance.
 - If you've never heard of `GraphQL`, don't worry! Since you've passed our phone screening, we fully believe that you'll be able to learn it in no time! You don't need to go deep and learn everything about `GraphQL`. Do this [tutorial](https://www.freecodecamp.org/news/learn-to-build-a-graphql-server-with-minimal-effort-fc7fcabe8ebd/) and you'll have learned all the basic skills necessary to complete this exercise.
 
 ## Technical Notes
@@ -58,6 +53,12 @@ There are many different ways to complete this exercise. We wanted to keep it op
 
 - Your task is building the backend `GraphQL` api to maintain this system. You will be coding the `graphql` resolvers that successfully conform to the `typedefs` we have provided.
 - We also created the `Ticket` database model you'll need to use. Even though it is not necessary, you may modify this model as you wish. In `server.js`, you'll see one example usage of said model.
+
+## Before Starting
+
+- ❗️ **Make sure you commit all changes to the master branch!**
+- Do not worry about performance.
+- To start, go to `localhost:4001/graphql`. This will pull up a GUI that lets you fire `GraphQL` queries against your api.
 
 ## Submitting the Assignment
 
