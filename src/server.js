@@ -13,7 +13,10 @@ const typeDefs = gql`
   }
 
   type Query {
+    # return a list of all root level (parentless) tickets.
     tickets: [Ticket]!
+
+    # return the ticket with the given id
     ticket(id: ID!): Ticket!
   }
 
@@ -47,7 +50,19 @@ const typeDefs = gql`
  */
 
 const resolvers = {
-  Query: {},
+  Query: {
+    /**
+     * We have implemented this first query for you to set up an initial pattern.
+     */
+
+    ticket: async (root, args, context) => {
+      return models.Ticket.findOne({
+        where: {
+          id: args.id
+        }
+      });
+    }
+  },
   Ticket: {},
   Mutation: {}
 };
