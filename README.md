@@ -31,7 +31,7 @@ There are many different ways to complete this exercise. We wanted to keep it op
 
 - You will be building a simple support ticket tracker. In this exercise, a `ticket` is defined as a task that has a `title`. The ticket is either `completed` or `incomplete` at any given time. It has a recursive structure, meaning that it may have `children` tickets. Those children tickets may further have children tickets of their own, and so on. For example:
 
-```json
+```json5
 {
   "title": "first ticket",
   "isCompleted": false,
