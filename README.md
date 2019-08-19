@@ -2,7 +2,7 @@
 
 🎉 Welcome to the Matter take-home coding exercise! 🎉
 
-This backend exercise is designed to take about 3 hours for someone familiar with `Node.js` and `Express`. Additionally, `GraphQL` will be a major part of this exercise. We do not expect you to know anything about `GraphQL` prior to taking this challenge. However, we do care about your drive to learn new things and improve your skills.
+This backend exercise is designed to take about 3 hours for someone familiar with `Node.js` and `Express`. Additionally, `GraphQL` will be a major part of this exercise. We do not expect you to know anything about `GraphQL` prior to taking this challenge. We'd be happier if you ended up learning something new out of this exercise.
 
 There are many different ways to complete this exercise. We wanted to keep it open ended and give you some creative freedom. As such, even though you don't need to, you may install and use any extra npm package.
 
@@ -50,8 +50,8 @@ There are many different ways to complete this exercise. We wanted to keep it op
 }
 ```
 
-- Your task is building the backend `GraphQL` api to maintain this system. You will be coding the `graphql` resolvers that successfully conform to the `typedefs` we have provided.
-- We also created the `Ticket` database model you'll need to use. Even though it is not necessary, you may modify this model as you wish. In `server.js`, you'll see one example usage of said model.
+- Your task is building the backend `GraphQL` api to maintain this system. You will be coding the `GraphQL` resolvers that successfully implement the `typedefs` we have provided.
+- We also created the `Ticket` model. Even though it is not necessary, you may modify this model as you wish. In `server.js`, you'll see one example usage of said model.
 
 ## Before Starting
 
