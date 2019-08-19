@@ -20,7 +20,6 @@ There are many different ways to complete this exercise. We wanted to keep it op
 - The database provider is [SQLite](https://www.sqlite.org/), which will store data in a local file called `database.sqlite3`.
 - The database client is [Sequelize](https://sequelize.org/). For any database operation, you should only have to interact with `Sequelize`.
 - You will be implementing a [GraphQL](https://graphql.org/) server. We have set up [Apollo Express Server](https://github.com/apollographql/apollo-server/tree/master/packages/apollo-server-express) for you.
-- Once you start your
 
 ## Exercise
 
