@@ -57,7 +57,7 @@ There are many different ways to complete this exercise. We wanted to keep it op
 
 - ❗️ **Make sure you commit all changes to the master branch!**
 - Do not worry about performance.
-- To start, go to `localhost:4001/graphql`. This will pull up a GUI that lets you fire `GraphQL` queries against your api.
+- To start, go to http://localhost:4001/graphql. This will pull up a GUI that lets you fire `GraphQL` queries against your api.
 
 ## Submitting the Assignment
 
