@@ -10,7 +10,7 @@ export class Ticket extends Sequelize.Model {
       },
       {
         sequelize,
-        tableName: "todo_items"
+        tableName: "tickets"
       }
     );
   }
