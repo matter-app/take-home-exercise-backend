@@ -2,7 +2,7 @@
 
 🎉 Welcome to the Matter take-home coding exercise! 🎉
 
-This backend exercise is designed to take about 3 hours for someone familiar with `Node.js` and `Express`. Additionally, `GraphQL` will be a major part of this exercise. We do not expect you to know anything about `GraphQL` prior to taking this challenge. We'd be happier if you ended up learning something new out of this exercise.
+This backend exercise is designed to take about 3 hours for someone familiar with `Node.js` and `Express`. Additionally, `GraphQL` will be a major part of this exercise. We do not expect you to know anything about `GraphQL` prior to taking this exercise. We'd be happier if you ended up learning something new out of this exercise.
 
 There are many different ways to complete this exercise. We wanted to keep it open ended and give you some creative freedom. As such, even though you don't need to, you may install and use any extra npm package.
 
@@ -10,14 +10,14 @@ There are many different ways to complete this exercise. We wanted to keep it op
 
 - The exercise requires [Node.js](https://nodejs.org/en/) to be installed. We recommend using the LTS version.
 - In the repo root directory, run `npm install` to gather all dependencies.
-- Next, run `npm run migrate`. This will create a local SQLite database. This database will live in a local file named `database.sqlite3`.
+- Next, run `npm run setup`. This will create a local SQLite database, and add some seed data. This database will live in a local file named `database.sqlite3`.
 - Then run `npm run watch`. This should start the server in development mode.
 
 ## Getting Started
 
-If you've never heard of `GraphQL`, don't worry — you'll be able to learn it in no time! You don't need to go deep and learn everything about `GraphQL`.
+If you've never heard of `GraphQL`, don't worry — you'll be able to learn it in no time! You don't need to go deep and learn everything about it.
 
-For starters, 👉 [go through this tutorial](https://www.freecodecamp.org/news/learn-to-build-a-graphql-server-with-minimal-effort-fc7fcabe8ebd/) 👈 and you'll have learned all the basic skills necessary to complete this exercise.
+For starters, 👉 [go through this tutorial](https://www.freecodecamp.org/news/learn-to-build-a-graphql-server-with-minimal-effort-fc7fcabe8ebd/) 👈 and you'll learn all the basic skills necessary to complete this exercise.
 
 ## Technical Notes
 
