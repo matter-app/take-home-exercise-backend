@@ -17,7 +17,7 @@ There are many different ways to complete this exercise. We wanted to keep it op
 
 If you've never heard of `GraphQL`, don't worry — you'll be able to learn it in no time! You don't need to go deep and learn everything about `GraphQL`.
 
-For starters, [go through this tutorial](https://www.freecodecamp.org/news/learn-to-build-a-graphql-server-with-minimal-effort-fc7fcabe8ebd/) and you'll have learned all the basic skills necessary to complete this exercise.
+For starters, 👉[go through this tutorial](https://www.freecodecamp.org/news/learn-to-build-a-graphql-server-with-minimal-effort-fc7fcabe8ebd/)👈 and you'll have learned all the basic skills necessary to complete this exercise.
 
 ## Technical Notes
 
