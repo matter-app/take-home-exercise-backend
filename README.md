@@ -6,20 +6,25 @@ This backend exercise is designed to take about 3 hours for someone familiar wit
 
 There are many different ways to complete this exercise. We wanted to keep it open ended and give you some creative freedom. As such, even though you don't need to, you may install and use any extra npm package.
 
-## Getting Set Up
+## Setup
 
 - The exercise requires [Node.js](https://nodejs.org/en/) to be installed. We recommend using the LTS version.
 - In the repo root directory, run `npm install` to gather all dependencies.
 - Next, run `npm run migrate`. This will create a local SQLite database. This database will live in a local file named `database.sqlite3`.
 - Then run `npm run watch`. This should start the server in development mode.
-- If you've never heard of `GraphQL`, don't worry! Since you've passed our phone screening, we fully believe that you'll be able to learn it in no time! You don't need to go deep and learn everything about `GraphQL`. Do this [tutorial](https://www.freecodecamp.org/news/learn-to-build-a-graphql-server-with-minimal-effort-fc7fcabe8ebd/) and you'll have learned all the basic skills necessary to complete this exercise.
+
+## Getting Started
+
+If you've never heard of `GraphQL`, don't worry — you'll be able to learn it in no time! You don't need to go deep and learn everything about `GraphQL`.
+
+For starters, [go through this tutorial](https://www.freecodecamp.org/news/learn-to-build-a-graphql-server-with-minimal-effort-fc7fcabe8ebd/) and you'll have learned all the basic skills necessary to complete this exercise.
 
 ## Technical Notes
 
 - The server is running with [nodemon](https://nodemon.io/), which will automatically restart for you when you modify and save a file.
 - The database provider is [SQLite](https://www.sqlite.org/), which will store data in a local file called `database.sqlite3`.
 - The database client is [Sequelize](https://sequelize.org/). For any database operation, you should only have to interact with `Sequelize`.
-- You will be implementing a [GraphQL](https://graphql.org/) server. We have set up [Apollo Express Server](https://github.com/apollographql/apollo-server/tree/master/packages/apollo-server-express) for you.
+- You will be implementing a [GraphQL](https://graphql.org/) server. We have set up [Apollo Express Server](https://github.com/apollographql/apollo-server/tree/master/packages/apollo-server-express) and [GraphQL Playground](https://github.com/prisma/graphql-playground) for you.
 
 ## Exercise
 
@@ -57,7 +62,7 @@ There are many different ways to complete this exercise. We wanted to keep it op
 
 - ❗️ **Make sure you commit all changes to the master branch!**
 - Do not worry about performance.
-- To start, go to http://localhost:4001/graphql. This will pull up a GUI that lets you fire `GraphQL` queries against your api.
+- To start, go to http://localhost:4001/graphql. This will pull up a GUI called [GraphQL Playground](https://github.com/prisma/graphql-playground) that lets you fire `GraphQL` queries against your api.
 
 ## Submitting the Assignment
 
