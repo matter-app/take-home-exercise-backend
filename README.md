@@ -10,7 +10,7 @@ There are many different ways to complete this exercise. We wanted to keep it op
 
 - The exercise requires [Node.js](https://nodejs.org/en/) to be installed. We recommend using the LTS version.
 - In the repo root directory, run `npm install` to gather all dependencies.
-- Next, run `npm run setup`. This will create a local SQLite database, and add some seed data. This database will live in a local file named `database.sqlite3`.
+- Next, run `npm run migrate`. This will create a local SQLite database, and add some seed data. This database will live in a local file named `database.sqlite3`.
 - Then run `npm run watch`. This should start the server in development mode.
 
 ## Getting Started
