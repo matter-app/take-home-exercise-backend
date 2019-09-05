@@ -6,7 +6,9 @@
   "private": true,
   "scripts": {
     "watch": "npx nodemon --exec babel-node ./src/server.js",
-    "migrate": "npx sequelize-cli db:migrate --config ./src/db/config/config.json --migrations-path ./src/db/migrations"
+    "migrate": "npx sequelize-cli db:migrate --config ./src/db/config/config.json --migrations-path ./src/db/migrations",
+    "seed": "npx sequelize-cli db:seed:all --config ./src/db/config/config.json --seeders-path ./src/db/seeders",
+    "setup": "npm run migrate && npm run seed"
   },
   "dependencies": {
     "apollo-server-express": "2.8.1",
