@@ -31,7 +31,7 @@ const typeDefs = gql`
     toggleTicket(id: ID!, isCompleted: Boolean!): Ticket!
 
     # delete this ticket
-    removeTicket(id: ID!): Boolean
+    removeTicket(id: ID!): Boolean!
 
     # every children in childrenIds gets their parent set as parentId
     addChildrenToTicket(parentId: ID!, childrenIds: [ID!]!): Ticket!
