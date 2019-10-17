@@ -15,7 +15,7 @@
     "express": "4.17.1",
     "graphql": "14.4.2",
     "sequelize": "5.15.0",
-    "sqlite3": "4.1.8"
+    "sqlite3": "^4.0.1"
   },
   "devDependencies": {
     "@babel/cli": "7.5.5",
