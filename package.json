@@ -14,7 +14,7 @@
     "apollo-server-express": "2.8.1",
     "express": "4.17.1",
     "graphql": "14.4.2",
-    "sequelize": "5.15.0",
+    "sequelize": "5.15.1",
     "sqlite3": "^4.0.1"
   },
   "devDependencies": {
