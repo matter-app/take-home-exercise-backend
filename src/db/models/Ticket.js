@@ -14,9 +14,4 @@ export class Ticket extends Sequelize.Model {
       }
     );
   }
-
-  static associate(models) {
-    Ticket.hasMany(Ticket, { as: "children", foreignKey: "parentId" });
-    Ticket.belongsTo(Ticket, { as: "parent", foreignKey: "parentId" });
-  }
 }
