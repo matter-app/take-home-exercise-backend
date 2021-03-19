@@ -72,6 +72,6 @@ When you have finished the assignment, run the following command:
 git bundle create take-home-exercise.bundle HEAD master
 ```
 
-This generates a bundle file called `take-home-exercise` based on your local master branch. Upload that file using the link provided in the e-mail you received, and we'll review your code within 1-2 days.
+This generates a bundle file called `take-home-exercise` based on your local master branch. Return that file to us via email, and we'll review your code within 1-2 days.
 
 Thank you and good luck! 🙏
