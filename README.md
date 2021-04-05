@@ -61,7 +61,8 @@ For starters, 👉 [go through this tutorial](https://www.freecodecamp.org/news/
 ## Before Starting
 
 - ❗️ **Make sure you commit all changes to the master branch!**
-- Do not worry about performance.
+- Don't worry about performance. We won't deduct points for big-O runtime or space efficiency. 
+- Take your time. Prioritize correctness, and show us how you usually code in a production setting.
 - To start, go to http://localhost:4001/graphql. This will pull up a GUI called [GraphQL Playground](https://github.com/prisma/graphql-playground) that lets you fire `GraphQL` queries against your api.
 
 ## Submitting the Assignment
